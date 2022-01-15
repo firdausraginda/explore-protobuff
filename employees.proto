@@ -1,0 +1,11 @@
+syntax = "proto3"; // specify proto version we want to use
+
+message Employee { // everything in proto is a message
+    int32 id = 1; // 1 is the sequence of the property, it means id is the first property
+    string name = 2;
+    float salary = 3;
+}
+
+message Employees {
+    repeated Employee employees = 1; // create object Employee called employees which will be repeated (exists more than 1)
+}
