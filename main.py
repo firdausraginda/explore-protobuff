@@ -26,13 +26,17 @@ emps_add.employees.add(id=2001, name='employee 11', salary=4000000)
 emps_add.employees.add(id=2002, name='employee 12', salary=4500000)
 emps_add.employees.add(id=2003, name='employee 13', salary=6000000)
 
-print(emps_add)
+# print(emps_add)
 
-
-# repeated message fields using `append()`---------------------------------------------------------------
+# repeated message fields using `append()` ---------------------------------------------------------------
 emps_append = employees_pb2.Employees()
 emps_append.employees.append(employee1)
 emps_append.employees.append(employee2)
 emps_append.employees.append(employee3)
 
-print(emps_append)
+# print(emps_append)
+
+# serialize message ---------------------------------------------------------------
+f = open('employees_binary', "wb") # "wb" means overwrite a file in binary format
+f.write(emps_append.SerializeToString())
+f.close()
