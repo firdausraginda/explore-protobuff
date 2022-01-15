@@ -4,6 +4,7 @@
 * tutorial: https://www.youtube.com/watch?v=46O73On0gyI&list=LL&index=1&t=24s
 * python protobuf: https://developers.google.com/protocol-buffers/docs/pythontutorial
 * protobuf last release: https://github.com/protocolbuffers/protobuf/releases/tag/v3.19.3
+* deal with python repetead field message: https://developers.google.com/protocol-buffers/docs/reference/python-generated?csw=1#repeated-message-fields
 
 # dependency
 * download the proto compiler: https://github.com/protocolbuffers/protobuf/releases/tag/v3.19.3
