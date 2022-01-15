@@ -5,6 +5,7 @@
 * python protobuf: https://developers.google.com/protocol-buffers/docs/pythontutorial
 * protobuf last release: https://github.com/protocolbuffers/protobuf/releases/tag/v3.19.3
 * deal with python repetead field message: https://developers.google.com/protocol-buffers/docs/reference/python-generated?csw=1#repeated-message-fields
+* python open file modes: https://stackoverflow.com/questions/16208206/confused-by-python-file-mode-w
 
 # dependency
 * download the proto compiler: https://github.com/protocolbuffers/protobuf/releases/tag/v3.19.3
