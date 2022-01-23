@@ -37,6 +37,6 @@ emps_append.employees.append(employee3)
 # print(emps_append)
 
 # serialize message ---------------------------------------------------------------
-f = open('employees_binary', "wb") # "wb" means open a file for writing only in binary format
+f = open('./employees/employees_binary', "wb") # "wb" means open a file for writing only in binary format
 f.write(emps_append.SerializeToString())
 f.close()

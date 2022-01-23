@@ -3,7 +3,7 @@ import employees_pb2
 emps = employees_pb2.Employees()
 
 # parse message from given binary file ---------------------------------------------------------------
-f = open('employees_binary', "rb") # "rb" means open a file for reading only in binary format
+f = open('./employees/employees_binary', "rb") # "rb" means open a file for reading only in binary format
 emps.ParseFromString(f.read())
 f.close()
 

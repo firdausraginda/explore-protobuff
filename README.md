@@ -12,4 +12,4 @@
 * install google protobuf: `pipenv install protobuf`
 # how to use proto compiler
 1. open the proto folder (protoc-3.19.3-osx-x86_64) -> bin -> run the **protoc**
-2. compile .proto file: `~/Downloads/protoc-3.19.3-osx-x86_64/bin/protoc --python_out=./ ./employees.proto`
+2. compile .proto file: `~/Downloads/protoc-3.19.3-osx-x86_64/bin/protoc --python_out=./ ./employees/employees.proto`
